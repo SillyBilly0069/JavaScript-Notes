@@ -22,4 +22,4 @@ var myPlants = [
     } // index 1
 ];
 
-var secondTree = myPlants[1].list[1]; // Current value of 'secondTree' variable is: pine (Reason for that because you're accessing 'myPlants' variable then you access the index 1 in the 'myPlants' array, then you access the index 1 of the 'list' array inside the 'myPlants' array which then you get the second value of the list array which is: pine)
+var secondTree = myPlants[1].list[1]; // Current value of the 'secondTree' variable is: pine (Reason for that is because you're accessing 'myPlants' variable then you access the index 1 in the 'myPlants' array, then you access the index 1 of the 'list' array inside the 'myPlants' array which then you get the second value of the list array which is: pine)
