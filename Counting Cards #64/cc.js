@@ -4,19 +4,19 @@ var count = 0; // Current value of the 'count' variable is: 0
 
 function cc(card) {
     switch (card) {
-        case 2: // This is readed like: If 'val' is equal to 2
-        case 3: // This is readed like: If 'val' is equal to 3
-        case 4: // This is readed like: If 'val' is equal to 4
-        case 5: // This is readed like: If 'val' is equal to 5
-        case 6: // This is readed like: If 'val' is equal to 6
+        case 2: // This is readed like: If 'card' is equal to 2
+        case 3: // This is readed like: If 'card' is equal to 3
+        case 4: // This is readed like: If 'card' is equal to 4
+        case 5: // This is readed like: If 'card' is equal to 5
+        case 6: // This is readed like: If 'card' is equal to 6
             count++; // Increased the value by 1
             break; // If one of them is true it stops here, else if it's false moves to the next case
 
-        case 10: // This is readed like: If 'val' is equal to 1
-        case "J": // This is readed like: If 'val' is equal to 1
-        case "Q": // This is readed like: If 'val' is equal to 1
-        case "K": // This is readed like: If 'val' is equal to 1
-        case "A": // This is readed like: If 'val' is equal to 1
+        case 10: // This is readed like: If 'card' is equal to 1
+        case "J": // This is readed like: If 'card' is equal to 1
+        case "Q": // This is readed like: If 'card' is equal to 1
+        case "K": // This is readed like: If 'card' is equal to 1
+        case "A": // This is readed like: If 'card' is equal to 1
             count--; // Decreases the value by 1
             break; // Last with no default option: If it's true it stops here, if it's false it returns the current value of the 'count' variable. (Only if it has no default option)
     }
